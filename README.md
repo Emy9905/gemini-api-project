@@ -32,7 +32,7 @@ GeminiChat API is a straightforward project built using Google's Gemini API. To 
    ```
 
    
-2 **Install Dependencies**
+2. **Install Dependencies**
 
 Navigate to the project directory and install dependencies.
 
@@ -41,8 +41,16 @@ cd geminichat-api
 npm install
 ```
 
+3. **Update API Key**
 
-3 **Start the development server to run the application locally.**
+Navigate to gemini.js and update the API Key.
+
+```bash
+./src/config/gemini.js
+```
+
+
+4. **Start the development server to run the application locally.**
 
 ```bash
 npm run dev
